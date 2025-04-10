@@ -105,7 +105,7 @@ function ConvertCSV(str){
           };
           console.log(lastPostAt, ParseInfo[x][2])
           console.log(ParseInfo[x][2][0], ParseInfo[x][9]);
-          sendText =`<@&930778024020946994>
+          sendText =`<@&>
 ${ParseInfo[x][2][0]}:${ParseInfo[x][9]}
 https://shinomas.blob.core.windows.net/product/html/Infomation/pages/${ParseInfo[x][10][0]}.html?Back=Top
 `
